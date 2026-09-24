@@ -1,6 +1,10 @@
 // Lösning till uppgift 2. Av Alexandra Nilsson, 2026
 "use strict";
 
+//skapar de efterfrågade variablerna
+let price = 100;
+let quantity = 3;
+
 //skapar en funktion som gör beräkningarna på totalsumman med och utan moms
 function calculatePrice (price, quantity){
      //Skriver ut värdena varje gång man anropar funktionen
@@ -17,6 +21,6 @@ function calculatePrice (price, quantity){
      console.log("Totalpris inkl. moms: " + totPriceInclVAT + " kr");
 }
 
-//  Anropar funktionen och skriver in parametrarna */
-calculatePrice(100, 3);
+//  Anropar funktionen och skickar med argumenten
+calculatePrice(price, quantity);
 

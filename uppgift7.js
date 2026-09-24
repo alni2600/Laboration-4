@@ -10,7 +10,7 @@ function calculateSum ( ){
     //sum har ett startvärde, 0
     let sum = 0;
 
-    //här loopas alla enskilda värden i arrayen igenom och adderas till totalsumman
+    //här loopas alla enskilda element i arrayen igenom och adderas till totalsumman
     numberArray.forEach(item => {
         sum = sum + item;
     });
@@ -18,5 +18,5 @@ function calculateSum ( ){
     return sum;
 }
 
-//anropar funktionen och skriver ut summan.
+//anropar funktionen (med arrayen som argument) och skriver ut summan.
 console.log(calculateSum( numberArray ));

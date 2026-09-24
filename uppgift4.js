@@ -2,7 +2,7 @@
 
 "use strict";
 
-//skapar en for-lop som skriver ut alla heltal från 1 till 20
+//skapar en for-loop som skriver ut alla heltal från 1 till 20
 console.log("Alla heltal från 1-20:");
 for(let i = 1; i <= 20; i++){
     console.log(i);

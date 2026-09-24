@@ -16,9 +16,8 @@ const book2 = {
     year : 2001
 }
 
-//skapa funktion som skriver ut egenskaperna
+//skapa funktion som skriver ut elementens egenskaper/värden. 
 function printObject(anyBook){
-    //skriver ut parametrarna
     console.log("Titel: " + anyBook.title);
     console.log("Författare: " + anyBook.author);
     console.log("Utgivningsår: " + anyBook.year);
