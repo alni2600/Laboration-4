@@ -5,11 +5,18 @@
 //skapar array med sex tal
 let numberArray = [9, 3, 7, 3, 8, 2];
 
-//skapar funktion innehållandes en variabel och ett returvärde. testkör
+//skapar funktion som returnerar totalsumman när den anropas
 function calculateSum ( ){
-    let sum = numberArray[0];
+    //sum har ett startvärde, 0
+    let sum = 0;
+
+    //här loopas alla enskilda värden i arrayen igenom och adderas till totalsumman
+    numberArray.forEach(item => {
+        sum = sum + item;
+    });
+    //den totala summan är funktionens returvärde
     return sum;
 }
 
-//anropar funktionen
+//anropar funktionen och skriver ut summan.
 console.log(calculateSum( numberArray ));
